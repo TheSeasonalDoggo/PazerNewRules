@@ -1,0 +1,41 @@
+"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"file_info": {
+		"authors": [
+			"The Seasonal Doggo"
+		],
+		"description": "Adds more rules to catch Bigots",
+		"title": "Doggo's Rulelist",
+		"update_url": ""
+	},
+	"rules": [
+		{
+			"actions": {
+				"mark": [
+					"racist"
+				]
+			},
+			"description": "Hate Speech",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "word",
+					"patterns": [
+						"nigger",
+						"niggers",
+						"nigga",
+						"nga",
+						"negga",
+						"nega",
+						"niga",
+						"niggas",
+						"neggas",
+						"negas",
+						"ngas",
+						"niga",
+						"nig",
+						"nigg",
+						"gg",
+					]
+				}
+			}
+		}
